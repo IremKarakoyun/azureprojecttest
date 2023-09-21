@@ -8,9 +8,9 @@ terraform {
 
 
 backend "azurerm" {
-        resource_group_name  = "wordpress-backend" #resource resource_group_name created manually 
+        resource_group_name  = "wordpressResourceGroup" #resource resource_group_name created manually 
         storage_account_name = "wordpressbackend822"     # created manually
-        container_name       = "tfstate"
+        container_name       = "$logs"
         key                  = "wordpress.tfstate"
     }
 }
