@@ -4,7 +4,7 @@ sudo yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 sudo yum -y install yum-utils
 sudo yum-config-manager --enable remi-php56   [Install PHP 5.6]
 sudo yum -y install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
-sudo wget https://wordpress.org/latest.tar.gz
+sudo wget https://wordpress.org/wordpress-5.6.11.tar.gz
 sudo tar -xf latest.tar.gz -C /var/www/html/
 sudo mv /var/www/html/wordpress/* /var/www/html/
 sudo cp /var/www/html/wp-config-sample.php  /var/www/html/wp-config.php 
