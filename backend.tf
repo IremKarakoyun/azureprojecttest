@@ -5,6 +5,7 @@ terraform {
       version = "=2.91.0"
     }
   }
+}
 
 /*backend "azurerm" {
         resource_group_name  = "wordpress-backend" #resource resource_group_name created manually 
